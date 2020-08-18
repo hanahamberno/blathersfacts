@@ -12,7 +12,6 @@ const App = () => {
     try {
       const data = await axios.get("https://acnhapi.com/v1a/bugs/");
       arrayOfFacts = data.data;
-      //console.log(arrayOfFacts); 
     } catch (error) {
       console.log(error)
     }
