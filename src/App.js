@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-//import logo from './logo.svg';
 import './App.css';
+import "./Fact.css"
 import axios from "axios";
 
 const App = () => { 
@@ -10,9 +10,9 @@ const App = () => {
   const acnhAPI = async () => {
     let arrayOfFacts = []; 
     try {
-      const data = await axios.get("https://acnhapi.com/v1a/fish/");
+      const data = await axios.get("https://acnhapi.com/v1a/bugs/");
       arrayOfFacts = data.data;
-      console.log(arrayOfFacts); 
+      //console.log(arrayOfFacts); 
     } catch (error) {
       console.log(error)
     }
@@ -34,12 +34,17 @@ const App = () => {
 
   return (
     <div className="App">
-      {species}
-      {fact}
-      <button onClick={acnhAPI}>GIMME FACT BOI</button>
+      <div className="title"><p>Blathers Bug Facts</p></div>
+      <div className="factBox">
+        <div className="container">
+          <div className="factButton"><button onClick={acnhAPI}>GIMME FACT BOI</button></div>
+          <div className="species">{species}</div>
+          <div className="fact">{fact}</div>
+        </div>
+      </div>
+      <div className="disclaimer"><p>Disclaimer: BlathersFacts is a fan made website and claims no ownership over Nintendo or Animal Crossing</p></div>
     </div>
   );
 }; 
-
 
 export default App;
