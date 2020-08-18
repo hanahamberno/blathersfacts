@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blathersfacts/static/css/main.7f82f512.chunk.css",
+    "main.js": "/blathersfacts/static/js/main.7d784479.chunk.js",
+    "main.js.map": "/blathersfacts/static/js/main.7d784479.chunk.js.map",
+    "runtime-main.js": "/blathersfacts/static/js/runtime-main.89a37b0c.js",
+    "runtime-main.js.map": "/blathersfacts/static/js/runtime-main.89a37b0c.js.map",
+    "static/js/2.2032dec4.chunk.js": "/blathersfacts/static/js/2.2032dec4.chunk.js",
+    "static/js/2.2032dec4.chunk.js.map": "/blathersfacts/static/js/2.2032dec4.chunk.js.map",
+    "index.html": "/blathersfacts/index.html",
+    "precache-manifest.4fc2c3ccd33c37008478a15c67197619.js": "/blathersfacts/precache-manifest.4fc2c3ccd33c37008478a15c67197619.js",
+    "service-worker.js": "/blathersfacts/service-worker.js",
+    "static/css/main.7f82f512.chunk.css.map": "/blathersfacts/static/css/main.7f82f512.chunk.css.map",
+    "static/js/2.2032dec4.chunk.js.LICENSE.txt": "/blathersfacts/static/js/2.2032dec4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89a37b0c.js",
+    "static/js/2.2032dec4.chunk.js",
+    "static/css/main.7f82f512.chunk.css",
+    "static/js/main.7d784479.chunk.js"
+  ]
+}
